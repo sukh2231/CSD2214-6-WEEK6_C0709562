@@ -1,12 +1,22 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>CSD2214_6_WEEK6</title>
-    <link href="css/default.css" rel="stylesheet" />
+    <title>Peter is all great!</title>
 </head>
 <body>
-    <div>Content goes here!</div>
-    <script src="js/main.js"></script>
+    <script>
+        var input1 = prompt("how high should I count up to?");
+        var sum = 0;
+        for (var i = 0; i <= input1; i++) {
+            document.write("<p> Point A: i is " + i);
+            document.write("<p>Point A: sum is " + sum);
+            sum += i;
+            document.write("<p>Point B: sum is " + sum);
+        }
+        document.write("<hr><p>Point c: i is " + i);
+        document.write(sum);
+            //
+    </script>
+
 </body>
 </html>
